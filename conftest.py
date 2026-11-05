@@ -1,7 +1,7 @@
 from selenium import webdriver
+from selenium.webdriver.common.by import By
+import time
 import pytest
-from selenium.webdriver.chrome.options import Options
-
 
 @pytest.fixture  # открытие браузера Chrome
 def driver():
